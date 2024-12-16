@@ -1,0 +1,32 @@
+.btn{
+    outline: none;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #434343a8;
+    transition: 0.2s;
+    margin: 5px;
+}
+
+.btn_default{
+    color: #434343;
+    background: #e3e3e3;
+    &:hover{
+        background: #d4d4d4;
+    }
+    &:active{
+        background: #ececec;
+    }
+}
+
+.btn_primary{
+    color: #494364;
+    background: #8076a3;
+    &:hover{
+        background: #736a92;
+    }
+    &:active{
+        background: #a093cc;
+    }
+}
